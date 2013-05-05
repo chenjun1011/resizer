@@ -13,7 +13,7 @@ KISSY.use("dom, event",function(S,DOM,Event){
         defaultCfg:{
             itemWidth:100,
             selector:".items",
-			max_col:4,
+			max_col:5,
 			max_row:10
         },
 		
