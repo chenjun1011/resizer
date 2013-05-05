@@ -3,33 +3,33 @@ body,div,ul,li,h2{
     padding: 0;
 }
 
-.items{
-    position: relative;
+.items{    
+	width:1020px;
+	margin:0 auto;
+	position: relative;
 }
-.items .hd{
-    background-color: rgb(41,157,231);
+.items .hd{    
     color: #fff;
-    text-align: center;
+    text-align:right;	
 }
 .items .hd h2{
     font-size: 22px;
-    font-weight: bold;
-    padding: 15px;
-    line-height: 25px;
+  	padding:5px;
 }
 .items li{
-    width: 90px;
-    height: 90px;
+    width: 160px;
+    height: 160px;
     list-style: none;
     float: left;
     position: relative;
     margin: 0 10px 10px 0;
+	background-color: rgb(41,157,231);
 }
 
 .items li.rowspan{
-    height: 190px;
+    height: 330px;
 }
 .items li.colspan{
-    width:190px;
+    width:330px;
 }
 

@@ -11,9 +11,9 @@ KISSY.use("dom, event",function(S,DOM,Event){
     var Resizer = {
 		
         defaultCfg:{
-            itemWidth:100,
+            itemWidth:170,
             selector:".items",
-			max_col:5,
+			max_col:6,
 			max_row:10
         },
 		
